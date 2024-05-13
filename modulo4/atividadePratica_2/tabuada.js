@@ -1,8 +1,8 @@
-function fazerTabuada(numero) {
-    console.log(`Tabuada de ${numero}:`);
+function fazerTabuada(numeroUsuario) {
+    console.log(`Tabuada de ${numeroUsuario}:`);
     for (let i = 1; i <= 10; i++) {
-        const resultado = numero * i;
-        console.log(`${numero} x ${i} = ${resultado}`);
+        const resultado = numeroUsuario * i;
+        console.log(`${numeroUsuario} x ${i} = ${resultado}`);
     }
 }
 
